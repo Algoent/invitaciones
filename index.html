@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#E8F0F6">
+  <title>Bautizo de Mateo</title>
+  <meta name="description" content="Tienes una invitación para el bautizo de Mateo · 15 de noviembre de 2026. Ábrela y confirma tu asistencia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body>
+  <div class="envelope" id="envelope" aria-hidden="false">
+    <div class="envelope-card">
+      <span class="mono-circle" aria-hidden="true">M</span>
+      <p class="kicker">Una celebración</p>
+      <h1 class="serif">Mateo</h1>
+      <p class="date-line"><span></span> Domingo 15 de noviembre de 2026 <span></span></p>
+      <button type="button" class="btn-primary" id="open-invite">Abrir invitación</button>
+    </div>
+  </div>
+
+  <main id="invite" hidden>
+    <section class="hero">
+      <img class="hero-photo" src="imagenes/hero.jpg?v=2" alt="Mateo dormido">
+      <div class="hero-veil"></div>
+      <div class="hero-copy">
+        <span class="wave" aria-hidden="true"></span>
+        <p class="kicker light">Mi bautizo</p>
+        <h1 class="serif">Mateo</h1>
+        <p class="hero-sub">Domingo 15 de noviembre de 2026 · Templo de San Marcos, Aguascalientes</p>
+        <p class="date-line light"><span></span> Domingo 15 de noviembre de 2026 <span></span></p>
+        <p class="quote">“Dejen que los niños vengan a mí.” — Mateo 19:14</p>
+      </div>
+      <a class="scroll-hint" href="#cuenta" aria-label="Bajar">⌄</a>
+    </section>
+
+    <section class="section" id="cuenta">
+      <span class="wave muted" aria-hidden="true"></span>
+      <p class="kicker">Para convertirme en hijo de Dios</p>
+      <h2 class="serif">Falta muy poquito</h2>
+      <div class="wave-line" aria-hidden="true"></div>
+      <div class="countdown" id="countdown" data-fecha="2026-11-15T12:00:00-06:00">
+        <div class="count-box"><strong id="d">00</strong><span>días</span></div>
+        <div class="count-box"><strong id="h">00</strong><span>hrs</span></div>
+        <div class="count-box"><strong id="m">00</strong><span>min</span></div>
+        <div class="count-box"><strong id="s">00</strong><span>seg</span></div>
+      </div>
+      <p class="count-meta">● Contando · Domingo 15 de noviembre de 2026</p>
+    </section>
+
+    <section class="section" id="ceremonia">
+      <p class="kicker">La sede</p>
+      <h2 class="serif">La ceremonia</h2>
+      <div class="wave-line" aria-hidden="true"></div>
+      <div class="pin" aria-hidden="true">📍</div>
+      <h3 class="serif venue-name">Templo de San Marcos</h3>
+      <p class="muted">Guadalupe Victoria esq. San Marcos, Barrio de San Marcos, 20070 Aguascalientes, Ags.</p>
+      <p class="note">La misa comienza a las 12:00 del día. Te esperamos unos minutos antes, frente al Jardín de San Marcos.</p>
+      <div class="map-wrap">
+        <iframe
+          title="Mapa del Templo de San Marcos"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Templo%20de%20San%20Marcos%20Aguascalientes&t=&z=16&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+      </div>
+      <div class="btn-row">
+        <a class="btn-primary" href="https://maps.google.com/?q=Templo+de+San+Marcos+Aguascalientes" target="_blank" rel="noopener">Cómo llegar</a>
+        <a class="btn-ghost" href="https://waze.com/ul?q=Templo%20de%20San%20Marcos%20Aguascalientes" target="_blank" rel="noopener">Waze</a>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <p class="kicker">3 fotos</p>
+      <h2 class="serif">Pequeños momentos</h2>
+      <div class="gallery">
+        <button type="button" class="shot" data-src="imagenes/galeria-01.jpg?v=2" aria-label="Abrir foto 1">
+          <img src="imagenes/galeria-01.jpg?v=2" alt="Momento 1">
+          <span>01</span>
+        </button>
+        <button type="button" class="shot" data-src="imagenes/galeria-02.jpg?v=2" aria-label="Abrir foto 2">
+          <img src="imagenes/galeria-02.jpg?v=2" alt="Momento 2">
+          <span>02</span>
+        </button>
+        <button type="button" class="shot" data-src="imagenes/galeria-03.jpg?v=2" aria-label="Abrir foto 3">
+          <img src="imagenes/galeria-03.jpg?v=2" alt="Momento 3">
+          <span>03</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section" id="familia">
+      <h2 class="serif">Me llevan de la mano</h2>
+      <div class="wave-line" aria-hidden="true"></div>
+      <p class="lead">Con el corazón lleno de amor, mi familia me acompaña en el día en que recibo mi primer sacramento.</p>
+      <p class="chip">♡ Nuestros padres</p>
+      <div class="parents">
+        <article class="person">
+          <p class="kicker">Mi mamá</p>
+          <h3 class="serif">Ana Sofía Ramírez Torres</h3>
+        </article>
+        <span class="heart" aria-hidden="true">♡</span>
+        <article class="person">
+          <p class="kicker">Mi papá</p>
+          <h3 class="serif">Diego León Herrera</h3>
+        </article>
+      </div>
+      <p class="chip">Nuestros padrinos</p>
+      <article class="person person--wide">
+        <p class="kicker">Mis padrinos</p>
+        <h3 class="serif">Mariana Herrera Ávila y Luis Cabrera Montes</h3>
+      </article>
+    </section>
+
+    <section class="section" id="regalos">
+      <p class="kicker">Mesa de regalos</p>
+      <h2 class="serif">Mesa de regalos</h2>
+      <p class="lead">Tu presencia es nuestro mejor regalo. Y si quieres consentirnos, cada detalle llega directo a la cuenta.</p>
+      <ul class="gifts">
+        <li>Ropita 3-6 meses</li>
+        <li>Mantita suave</li>
+        <li>Pañales etapa 2</li>
+        <li>Libro de recuerdos</li>
+        <li>Aportación libre</li>
+        <li>Juguete de madera</li>
+      </ul>
+      <p class="bank">CLABE · 012 180 001234567890 · Ana Sofía Ramírez</p>
+    </section>
+
+    <section class="section" id="rsvp">
+      <p class="kicker">Confirmación</p>
+      <h2 class="serif">¿Nos acompañas?</h2>
+      <p class="lead">Confirma tu asistencia para reservar tu lugar.</p>
+      <form class="rsvp" id="rsvp-form">
+        <label class="sr-only" for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+        <label class="sr-only" for="asistentes">Número de personas</label>
+        <input id="asistentes" name="asistentes" type="number" min="1" max="12" value="1" required>
+        <fieldset>
+          <legend class="sr-only">Asistencia</legend>
+          <label><input type="radio" name="asistencia" value="si" checked> Sí, ahí estaré</label>
+          <label><input type="radio" name="asistencia" value="no"> No podré ir</label>
+        </fieldset>
+        <button type="submit" class="btn-primary">Enviar confirmación</button>
+        <p class="form-status" hidden></p>
+      </form>
+    </section>
+
+    <footer class="foot">
+      <p class="kicker">Invitación digital</p>
+      <p class="serif">Mateo</p>
+      <p class="muted">Domingo 15 de noviembre de 2026</p>
+      <a class="btn-primary" style="margin-top:1.2rem" href="https://wa.me/?text=Te%20invito%20al%20bautizo%20de%20Mateo%20el%2015%20de%20noviembre%20de%202026" target="_blank" rel="noopener">Compartir por WhatsApp</a>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Cerrar">×</button>
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <script src="js/main.js?v=2"></script>
+</body>
+</html>
